@@ -93,7 +93,7 @@ const Navbar = () => {
             {navItems.map(({ name, path }) => (
               <li key={name} className="group duration-500">
                 <a
-                  href={`/${path}`}
+                  href={`#${path}`}
                   className="text-white bg-transparent border-none"
                   onClick={handleNavClick}
                 >
