@@ -9,9 +9,9 @@ import project4 from "../assets/project1.png"
 const ProjectLayout_3 = () => {
   
   const allData = {
-    name: "Netflix",
+    name: "Hotel Suites",
     breadcrum: "Home",
-    description: "A Netflix Clone is a web or mobile application designed to replicate the functionality, features, and user experience of the popular streaming service Netflix. It allows users to browse, stream, and manage their favorite movies, TV shows, and documentaries in a user-friendly interface.",
+    description: "Discover the perfect blend of luxury, comfort, and style in our thoughtfully designed hotel suites. Each suite offers an elevated experience, featuring spacious living areas, plush king-sized beds, and stunning views of the city or ocean.",
     req: [
       {
       title: "Category",
@@ -37,10 +37,10 @@ const ProjectLayout_3 = () => {
       project4
     ],
     projectImage: project3,
-    projectLink: "https://netflix-app-six-pi.vercel.app/",
+    projectLink: "https://hotel-suite-one.vercel.app/",
     projectdesc:{
-      projectDescription1: "A Netflix clone is a web application designed to mimic the core functionality and user experience of Netflix. It features user authentication to allow individuals to create and manage their accounts, providing a personalized experience. The home page typically showcases a variety of content through dynamic layouts, such as carousels or grids, displaying featured movies and TV shows.",
-      projectDescription2: "The design is responsive, ensuring that the application is accessible and functional across different devices, including desktops, tablets, and smartphones. Overall, a Netflix clone combines frontend technologies, like React.js or Next.js. ",
+      projectDescription1: "Discover the perfect blend of luxury, comfort, and style in our thoughtfully designed hotel suites. Each suite offers an elevated experience, featuring spacious living areas, plush king-sized beds, and stunning views of the city or ocean. The elegant interiors are complemented by modern amenities, including high-speed Wi-Fi, flat-screen TVs, and premium minibars.",
+      projectDescription2: "Our hotel suites website is built using React.js for a dynamic, component-based user interface, ensuring fast and seamless navigation. Tailwind CSS provides a utility-first approach to styling, enabling responsive and visually appealing designs. This combination allows for an efficient, modern, and highly customizable website experience. ",
     },
     project:[
       {
@@ -51,7 +51,7 @@ const ProjectLayout_3 = () => {
   }
 
   useEffect(() => {
-    document.title = "Netflix - Perwez";
+    document.title = "Hotel Suites - Perwez";
     window.scrollTo(0, 0);
   }, []);
   return (

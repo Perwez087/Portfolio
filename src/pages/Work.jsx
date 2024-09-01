@@ -28,11 +28,11 @@ const Work = () => {
             icons: <MdArrowOutward size={30} />
         },
         {
-            title: 'Netflix-clone',
-            description: 'A Netflix clone is a web application.',
+            title: 'Hotel Suite',
+            description: 'Enjoy stunning views, premium amenities unforgettable stay.',
             image: project3,
             category: 'Branding',
-            link: '/projects/netflix',
+            link: '/projects/Hotelsuite',
             icons: <MdArrowOutward size={30} />
         },
         {
