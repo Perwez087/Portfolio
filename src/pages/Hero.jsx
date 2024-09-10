@@ -19,7 +19,7 @@ const Hero = () => {
             desc2: "Experience"
         },
         {
-            title: 2,
+            title: 4,
             desc: "Project",
             desc2: "Completed"
         },
