@@ -14,8 +14,8 @@ const Hero = () => {
 
     const data = [
         {
-            title: 6,
-            desc: "Month of",
+            title: 1,
+            desc: "Year of",
             desc2: "Experience"
         },
         {
@@ -24,7 +24,7 @@ const Hero = () => {
             desc2: "Completed"
         },
         {
-            title: 0,
+            title: 1,
             desc: "Happy",
             desc2: "Clients"
         }
