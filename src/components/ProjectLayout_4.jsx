@@ -8,9 +8,9 @@ import project4 from "../assets/project1.png"
 
 const ProjectLayout_4 = () => {
   const allData = {
-    name: "eStudy",
+    name: "Movie-App",
     breadcrum: "Home",
-    description: "An eStudy website built with React.js and Tailwind CSS offers a modern, interactive platform for online learning. The website features a clean, responsive design created using Tailwind CSS, which ensures that the layout adapts seamlessly to different screen sizes and devices. React.js is used to build dynamic, reusable components that enhance user interaction and functionality.",
+    description: "The Movie Detail app is an interactive platform where users can dive into comprehensive information about their favorite movies. Built with React, it displays essential movie details like synopsis, cast, and release dates, along with tailored recommendations and similar movie suggestions. The app is crafted for a smooth browsing experience, ensuring it looks and works well on all screen sizes..",
     req: [
       {
       title: "Category",
@@ -36,21 +36,21 @@ const ProjectLayout_4 = () => {
       project4
     ],
     projectImage: project4,
-    projectLink: "https://education-app-sepia.vercel.app/",
+    projectLink: "https://movie-app-ten-silk.vercel.app/",
     projectdesc:{
-      projectDescription1: "An eStudy website built with React.js and Tailwind CSS offers a modern, interactive platform for online learning. The website features a clean, responsive design created using Tailwind CSS, which ensures that the layout adapts seamlessly to different screen sizes and devices. React.js is used to build dynamic, reusable components that enhance user interaction and functionality.",
-      projectDescription2: "The homepage typically presents an engaging interface with sections for featured courses, categories, and a search bar to help users find specific subjects. The course listings are often displayed in a grid or card format, allowing users to easily browse and select their desired content. Detailed course pages provide information such as course descriptions, instructor details, and enrollment options. ",
+      projectDescription1: "A movie app built with React.js, Tailwind CSS, and the TMDB API. This app allows users to browse and explore movie details, view ratings, and access related recommendations, all with a sleek and responsive design powered by Tailwind CSS. The TMDB API provides rich movie data, including cast, genres, and similar movies, offering users an engaging and dynamic movie-browsing experience.",
+      projectDescription2: "The Movie Detail app is an interactive platform where users can dive into comprehensive information about their favorite movies. Built with React, it displays essential movie details like synopsis, cast, and release dates, along with tailored recommendations and similar movie suggestions. The app is crafted for a smooth browsing experience, ensuring it looks and works well on all screen sizes. ",
     },
     project:[
       {
         projectDetail: "OUR APPROACH",
-        projectDesc: "Creating an eStudy website with React.js and Tailwind CSS involves several key steps. Start by defining the overall structure and functionality of the site. React.js will be used to build the core features of the website, such as interactive components for course listings, user profiles, and dashboards. Tailwind CSS will be employed to design the user interface, ensuring a clean and responsive layout."
+        projectDesc: "A movie app built with React.js, Tailwind CSS, and the TMDB API. This app allows users to browse and explore movie details, view ratings, and access related recommendations, all with a sleek and responsive design powered by Tailwind CSS. The TMDB API provides rich movie data, including cast, genres, and similar movies, offering users an engaging and dynamic movie-browsing experience."
       }
     ]
   }
 
   useEffect(() => {
-    document.title = "eStudy - Perwez";
+    document.title = "Movie - Perwez";
     window.scrollTo(0, 0);
   }, []);
   return (

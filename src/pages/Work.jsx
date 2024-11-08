@@ -15,7 +15,7 @@ const Work = () => {
             title: 'Yahya Booking',
             description: 'Yahya Booking is a comprehensive travel booking.',
             image: project1,
-            category: 'Branding',
+            category: 'Travel',
             link: '/projects/yahya',
             icons: <MdArrowOutward size={30} />
         },
@@ -23,7 +23,7 @@ const Work = () => {
             title: 'Leadtym',
             description: 'Leadtym is a marketing platform designed.',
             image: project2,
-            category: 'Apps',
+            category: 'Marketing',
             link: '/projects/leadtym',
             icons: <MdArrowOutward size={30} />
         },
@@ -31,16 +31,16 @@ const Work = () => {
             title: 'Hotel Suite',
             description: 'Enjoy stunning views, premium amenities unforgettable stay.',
             image: project3,
-            category: 'Branding',
+            category: 'Travel',
             link: '/projects/Hotelsuite',
             icons: <MdArrowOutward size={30} />
         },
         {
-            title: 'eStudy',
-            description: 'An eStudy website built with React.js.',
+            title: 'Movie App',
+            description: 'Movie app built with ReactJS, Tailwind CSS, and TMDB API.',
             image: project4,
-            category: 'UX/UI',
-            link: '/projects/estudy',
+            category: 'Entertainment',
+            link: '/projects/movie',
             icons: <MdArrowOutward size={30} />
         }
     ];
@@ -56,7 +56,7 @@ const Work = () => {
             <div className='flex flex-col items-center justify-center gap-4'>
                 <h1 className='bg-gradient-to-r from-[#8750f7] to-purple-100 bg-clip-text text-transparent font-bold md:text-5xl sm:text-3xl text-xl py-2'>My Recent Works</h1>
                 <div className='grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 item-center gap-6 mt-8 bg-black p-1 md:px-0 px-4 rounded-full'>
-                    {['All', 'Apps', 'Branding', 'UX/UI'].map(category => (
+                    {['All', 'Travel', 'Marketing', 'Entertainment'].map(category => (
                         <button
                             key={category}
                             className={`text-slate-100 py-3 md:px-6 px-4 rounded-full font-medium ${filter === category && 'bg-gradient-to-r from-slate-800 to-[#7D4AE6] transition-colors duration-500 ease-in-out'}`}
